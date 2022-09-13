@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.main-container {
+    margin-top: 8%;
+    border: solid 2px black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tip-container {
+    border: solid 2px orange;
+    height: 40rem;
+    width: 50%;
+}
+
+
+.total-container {
+    display: flex;
+   
+    flex-direction: column;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    width: 75%;
+}
+
+
+.tip-container button {
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    width: 5rem;
+    height: 3rem;
+    font-size: 1rem;
+    
+}
+
+#reset-btn {
+    background-color: cyan hsl(184, 14%, 56%);
+    width: 25rem;
+    height: 3rem;
+    border-radius: 20px;
+}
+
