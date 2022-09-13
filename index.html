@@ -11,7 +11,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
   </style>
-  
+
   <title>Frontend Mentor | Tip calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -28,37 +28,46 @@
   <div class="tip-container">
     <h2>Bill</h2>
     <input id="bill-amt" type="text">
-
     <h2 id="tip-amt">Select Tip %</h2>
-  <button id="5">5%</button>
-  <button id="10">10%</button>
-  <button id="15">15%</button>
-  <button id="25">25%</button>
-  <button id="50">50%</button>
-  <button id="custom">Custom</button>
+
+    <div class="tip-button">
+
+      <button class="tip-btn" id="5">5%</button>
+      <button class="tip-btn" id="10">10%</button>
+      <button class="tip-btn" id="15">15%</button>
+      <button class="tip-btn" id="25">25%</button>
+      <button class="tip-btn" id="50">50%</button>
+      <button class="tip-btn" id="custom">Custom</button>
+
+      <h2 id="person-amt">Number of People</h2>
+      <input id="num-people" type="text">
+
+    </div>
+ 
+</div>
+
+<div class="totalcontainerbackground">
 
   <div class="total-container">
-
     <h3 class="tip-total">Tip Amount</h3>
     <p class="p-person">/ person</p>
 
     <h3 class="tip-total">Total</h3>
     <p class="p-person">/ person</p>
 
-  
-    <h2 id="person-amt">Number of People</h2>
-    <input id="num-people" type="text">
 
     <button id="reset-btn">Reset</button>
-
   </div>
+
+</div>
   
-  </div>
 
-    
+  
+
+
 </div>
 
-  
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
